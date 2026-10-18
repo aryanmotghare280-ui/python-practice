@@ -1,24 +1,22 @@
 #creating list to store 5 students names
 
-'''
 names = ["amit","kapil","raju","ravi","karan"]
 
 print(type(names))
 print(names[0])
 for n in names :
     print(n)
-'''
 
-'''
+
+
 names=["amit","falguni","ashiravad","saurabbh"]
 print(type(names))
 print(names[0])
 for n in names:
     print(n)
-'''    
+    
 
 
-'''
 names=["amit","ravi","kapil","raju","ravi"]
 #list slicing
 
@@ -31,27 +29,27 @@ print(names[::-1])
 
 print("no of time ravi in list ",names.count('ravi'))
 print("index of ravi in list ",names.index('ravi'))
-'''
 
 
 
-'''
+
+
 course=[] #empty list
 for i in range(3):
     c=input("enter the course name :")
     course.append(c)
 print("courses ", course)
-'''
-'''
+
+
 animal=[]  #empty list
 for i in range(3):
     r = input("enter the animal name :")
     animal.append(r)
 print(animal)    
-'''    
+   
 
 
-'''
+
 product=[]
 for i in range(3):
     p=input("enter product name :")
@@ -61,10 +59,10 @@ for i in range(3):
     product.append(prod)
 print("product details ",product)
 
-'''
 
 
-'''
+
+
 
 student=[]
 for i in range(3):
@@ -77,16 +75,16 @@ for i in range(3):
     student.append(stud)
 print("student details :", student)
 
-'''
-'''
+
+
 def gaandu(num):
     area= 3.14* num**2
     print(area)
 radius=int(input("Enter radius"))
 gaandu(radius)
 
-'''
-'''
+
+
 emp = ["arun","amit"]
            
 emp1= ["rohit","monalisa"]
@@ -115,13 +113,13 @@ print("sort employees ",emp)
 
 emp.reverse()
 print("reverse of employees ",emp)
-'''
+
 
 
 # 1. Student Marks Manager
 
 # python
-'''
+
 
 marks = [78, 85, 62, 90, 55]
 
@@ -139,7 +137,7 @@ print("after remove marks will :",marks)
 marks.sort(reverse=True)  # sort descending
 print("Updated marks:", marks)
 
-'''
+
 
 
 
